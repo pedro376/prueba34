@@ -1,0 +1,149 @@
+/* este es la parte de las imagenes con texto a los lados */
+
+img{
+	border-radius: 50%;
+}
+#img1{
+	background-color:#f2f2f2;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+#img1 h1 a{
+	text-align: center;
+	font-size: 40px;
+	width: 20%;
+	padding-bottom: 10px;
+	font-family: playfair;
+}
+
+#img1 img{
+	margin: 15px;
+	width: 40%;
+}
+
+section article img{
+	border-radius: 50%;
+}
+
+#img2{
+	background-color:#DBB2B4;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+#img2 h1 a{
+	text-align: center;
+	font-size: 40px;
+	width: 20%;
+	padding-bottom: 10px;
+	font-family: playfair;
+}
+
+#img2 img{
+	margin: 15px;
+	width: 40%;
+}
+
+#img3 article{
+	background-color: #F2F2F2;
+	display: flex;
+	padding: 60px;
+	justify-content: left;
+}
+
+article h2{
+	text-align: center;
+	font-size: 20px;
+	width: 40%;
+	padding: 30px;
+	font-family: playfair;
+}
+
+article img{
+	margin: 10px;
+	width: 40%;
+
+}
+
+#img4 article{
+	background-color:#DBB2B4;
+	display: flex;
+	padding: 60px;
+	justify-content: right;
+}
+
+article h2{
+	text-align: center;
+	font-size: 20px;
+	width: 40%;
+	padding: 30px;
+	font-family: playfair;
+}
+
+#img5 article{
+	background-color: #F2F2F2;
+	display: flex;
+	padding: 60px;
+	justify-content: left;
+}
+
+article h2{
+	text-align: center;
+	font-size: 20px;
+	width: 40%;
+	padding: 30px;
+	font-family: playfair;
+}
+
+article img{
+	margin: 10px;
+	width: 40%;
+
+}
+
+
+article img{
+	margin: 10px;
+
+}
+/* esta parte es del primer texto de bienvenido*/
+#bienvenidos {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#bienvenidos h2{
+	padding: 10px;
+	padding-bottom: 30px;
+	font-size: 50px;
+	text-align: center;
+	font-family: playfair;
+}
+
+.bienvenida{
+	width: 80%;
+	text-align: center;
+	font-family: 'Lucida Sans';
+}
+
+html{
+	transition: 0.4s;
+	scroll-behavior: smooth;
+}
+
+a{
+	font-size: 30px;
+	text-decoration: underline;
+	color: rgb(41, 21, 7);
+}
